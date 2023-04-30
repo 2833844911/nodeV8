@@ -81,6 +81,22 @@ console.log(d.a);
 
 ```
 
+5.堆栈调用拦截
+```javascript
+cbbh = {}
+cbbh.cbbHookStack=function (){
+    console.log("拦截：",arguments[0]);
+    return arguments[0];
+}
+
+try{
+    dghasjd.dashdjkas
+}catch (e){
+    console.log(e)
+}
+
+```
+
 
 
 作者： 陈不不
