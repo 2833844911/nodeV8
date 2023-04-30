@@ -38,6 +38,8 @@ setTimeout(()=>{
 
 // 强制执行一轮循环
 cbb.cbbnative.cbbasyncone()
+// 或者
+// cbb.cbbnative.asyncone()
 console.log(2)
 // 输出
 // 1
